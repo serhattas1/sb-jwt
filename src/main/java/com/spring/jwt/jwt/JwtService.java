@@ -15,6 +15,7 @@ import java.util.function.Function;
 @Component
 public class JwtService {
 
+    //
     public static final String SECRET_KEY = "ngo3lVRifi/xFmEp77z58iMw1Pj90ZWvYw9nYz/atns=";
 
     public String generateToken(UserDetails userDetails) {
